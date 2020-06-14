@@ -2,3 +2,33 @@
   text-align: center;
   font-size: 50px;
 }
+
+.todos {
+  margin: auto;
+  width: 300px;
+}
+
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.todos li {
+  list-style: none;
+}
+
+.todos ul {
+  padding-left: 10px;
+}
+.todos button {
+  float: right;
+}
+
+.todos form input {
+  width: 100%;
+}
