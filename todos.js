@@ -1,4 +1,5 @@
-const formNode = document.querySelector("form");
+const todoNode = document.querySelector(".todos");
+const formNode = todoNode.querySelector("form");
 const formInput = formNode.querySelector("input");
 const pendingList = document.querySelector(".ul-pending");
 const finishedList = document.querySelector(".ul-finished");

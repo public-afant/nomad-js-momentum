@@ -1,9 +1,16 @@
+h1,
+h2,
+h3,
+span {
+  color: white;
+}
+
 .clock {
   text-align: center;
   font-size: 50px;
 }
 
-.todos {
+.container {
   margin: auto;
   width: 300px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -49,9 +56,11 @@ button {
   height: 100%;
 }
 
-h1,
-h2,
-h3,
-span {
-  color: white;
+.user {
+  text-align: center;
+  margin: 20px;
+}
+
+.user input {
+  text-align: center;
 }

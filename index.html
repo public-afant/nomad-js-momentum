@@ -10,22 +10,29 @@
     <div class="clock">
       <h1>00:00:00</h1>
     </div>
-    <div class="todos">
-      <h1>ToDos</h1>
-      <form>
-        <input type="text" placeholder="오늘 무엇을 해야하나요?" />
-      </form>
-      <div class="div-pending">
-        <h2>Todo</h2>
-        <ul class="ul-pending"></ul>
+    <div class="container">
+      <div class="user">
+        <form>
+          <input type="text" placeholder="이름이 무엇인가요?" />
+        </form>
       </div>
-      <div class="div-finished">
-        <h2>Finished</h2>
-        <ul class="ul-finished"></ul>
+      <div class="todos">
+        <form>
+          <input type="text" placeholder="오늘 무엇을 해야하나요?" />
+        </form>
+        <div class="div-pending">
+          <h2>Todo</h2>
+          <ul class="ul-pending"></ul>
+        </div>
+        <div class="div-finished">
+          <h2>Finished</h2>
+          <ul class="ul-finished"></ul>
+        </div>
       </div>
     </div>
     <script src="./bg.js"></script>
     <script src="./clock.js"></script>
     <script src="./todos.js"></script>
+    <script src="./user.js"></script>
   </body>
 </html>
