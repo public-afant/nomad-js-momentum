@@ -50,7 +50,6 @@ button {
   top: 0;
   left: 0;
   z-index: -1;
-  /* background-repeat: no-repeat; */
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -63,4 +62,12 @@ button {
 
 .user input {
   text-align: center;
+}
+
+.js-weather {
+  font-size: 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
 }
